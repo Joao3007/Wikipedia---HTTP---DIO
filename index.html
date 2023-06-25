@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wikipedia</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header>
+    <div class="center">
+    <img class="logo" width="150px" src="/img/Wikipedia_logo_gold.png" alt="Logo da Wikipedia">
+  </div>
+  </header>
+
+  <section>
+    <article> 
+      <h1>Hypertext Transfer Protocol (HTTP)</h1> <br>
+      <p>O Hypertext Transfer Protocol, sigla HTTP (em português Protocolo de Transferência de Hipertexto) é um protocolo de comunicação (na camada de aplicação segundo o Modelo OSI) utilizado para sistemas de informação de hipermídia, distribuídos e colaborativos.[1] Ele é a base para a comunicação de dados da World Wide Web. </p> <br>
+      <p>Hipertexto é o texto estruturado que utiliza ligações lógicas (hiperlinks) entre nós contendo texto. O HTTP é o protocolo para a troca ou transferência de hipertexto. <br> <br>
+        Coordenado pela World Wide Web Consortium e a Internet Engineering Task Force, culminou na publicação de uma série de Requests for Comments; mais notavelmente o RFC 2616, de junho de 1999, que definiu o HTTP/1.1. Em Junho de 2014 foram publicados 6 RFC's para maior clareza do protocolo HTTP/1.1.[2] Em Março de 2015, foi divulgado o lançamento do HTTP/2. A atualização deixará o navegador com um tempo de resposta melhor e mais seguro. Ele também melhorará a navegação em smartphones.[3] Os trabalhos no HTTP/3 já começaram e suas versões beta estão em teste por grandes empresas.[4] </p> <br>
+      <p>Para acedermos a outro documento a partir de uma palavra presente no documento actual podemos utilizar hiperligações (ou âncoras). Estes documentos se encontram no sítio com um endereço de página da Internet – e para acessá-los deve-se digitar o respectivo endereço, denominado URI (Universal Resource Identifier ou Identificador Universal de Recurso), que não deve ser confundido com URL (Universal Resource Locator ou Localizador Universal de Recurso), um tipo de URI que pode ser directamente localizado. </p> 
+      </article>
+  </section>
+
+  <section>
+      <article>
+        <h1>Visão técnica geral</h1> <br>
+        <p>O HTTP funciona como um protocolo de requisição-resposta no modelo computacional cliente-servidor. Um navegador web, por exemplo, pode ser o cliente e uma aplicação em um computador que hospeda um sítio da web pode ser o servidor. O cliente submete uma mensagem de requisição HTTP para o servidor. O servidor, que fornece os recursos, como arquivos HTML e outros conteúdos, ou realiza outras funções de interesse do cliente, retorna uma mensagem resposta para o cliente. A resposta contém informações de estado completas sobre a requisição e pode também conter o conteúdo solicitado no corpo de sua mensagem. </p> <br>
+        <p>Um navegador web é um exemplo de agente de usuário (AU). Outros tipos de agentes de usuário incluem o software de indexação usado por provedores de consulta (web crawler), navegadores vocais, aplicações móveis e outros software que acessam, consomem ou exibem conteúdo web. </p> <br>
+        <p>O HTTP é projetado para permitir intermediações de elementos de rede para melhorar ou habilitar comunicações entre clientes e servidores. Sites web de alto tráfego geralmente se beneficiam dos servidores de cache web que entregam conteúdo em nome de servidores de upstream para melhorar o tempo de resposta. Navegadores web armazenam os recursos web acessados anteriormente e reutilizam-nos quando possível para reduzir o tráfego de rede. Servidores proxy HTTP nas fronteiras de redes privadas podem facilitar a comunicação para o cliente sem um endereço globalmente roteável, transmitindo mensagens com servidores externos. </p> <br>
+        <p>Basicamente, o HTTP define como clientes Web requisitam páginas Web aos servidores e como elas as transferem a clientes. Quando um usuário solicita uma página Web (acessa uma URL), o navegador envia ao servidor mensagens de requisição HTTP para os objetos da página. O servidor, por sua vez, recebe estas requisições e responde com mensagens de resposta HTTP que contém os objetos (...). O protocolo HTTP utiliza por padrão a porta 80 para comunicação (MACEDO et al., 2018).[5]</p>
+      </article> 
+  </section>
+
+  <section>
+    <article>
+      <h1>História</h1> <br>
+      <p>O HyperText Transfer Protocol é um protocolo de aplicação responsável pelo tratamento de pedidos e respostas entre cliente e servidor na World Wide Web. Ele surgiu da necessidade de distribuir informações pela Internet e para que essa distribuição fosse possível foi necessário criar uma forma padronizada de comunicação entre os clientes e os servidores da Web e entendida por todos os computadores ligados à Internet. Com isso, o protocolo HTTP passou a ser utilizado para a comunicação entre computadores na Internet e a especificar como seriam realizadas as transacções entre clientes e servidores, através do uso de regras básicas.  </p>
+      <br>
+      <p>Este protocolo tem sido usado pela WWW desde 1990. A primeira versão de HTTP, chamada HTTP/0.9, era um protocolo simples para a transferência de dados no formato de texto ASCII pela Internet, através de um único método de requisição, chamado GET. A versão HTTP/1.0 foi desenvolvida entre 1992 e 1996 para suprir a necessidade de transferir não apenas texto. Com essa versão, o protocolo passou a transferir mensagens do tipo MIME44 (Multipurpose Internet Mail Extension) e foram implementados novos métodos de requisição, chamados <code>POST</code> e <code> HEAD.</code></p>
+      <br>
+      <p>No HTTP/1.1, versão do protocolo descrito na RFC 2616,[6] foi desenvolvido um conjunto de implementações adicionais ao HTTP/1.0, como por exemplo: o uso de conexões persistentes; o uso de servidores proxy que permitem uma melhor organização da cache; novos métodos de requisições; entre outros. Afirma-se que o HTTP também é usado como um protocolo genérico para comunicação entre os agentes de utilizadores e proxies/gateways com outros protocolos, como o SMTP, NNTP, FTP, Gopher, e WAIS, permitindo o acesso a recursos disponíveis em aplicações diversas.[6]</p>
+      <br>
+      <div class="tabela" style="text-align: center;">
+        <table>
+          <thead>
+            <tr>
+              <th>Ano</th>
+              <th>Versão do HTTP</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1991</td>
+              <td>0.9</td>
+            </tr>
+            <tr>
+              <td>1996</td>
+              <td>1.0</td>
+            </tr>
+            <tr>
+              <td>1997</td>
+              <td>1.1</td>
+            </tr>
+            <tr>
+              <td>2015</td>
+              <td>2.0</td>
+            </tr>
+            <tr>
+              <td>2018</td>
+              <td>3.0</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </article> 
+</section>
+</body>
+</html>

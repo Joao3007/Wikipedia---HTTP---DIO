@@ -1,0 +1,46 @@
+ * {
+  font-family: Helvetica, sans-serif;
+  padding: 0px;
+  margin: 0px;
+  background: black;
+ }
+
+ header {
+  width: 7%;
+  margin: auto;
+ }
+
+ h1 {
+  color: white;
+ }
+
+ p {
+  color: white;
+ }
+
+ section {
+  margin: auto;
+  padding: 10px;
+  width: 40%;
+  border: 1px rgb(255, 255, 255) solid;
+  margin: 10px;
+  margin-left: 30%;
+ }
+
+ article {
+  text-align: center;
+ }
+
+ table {
+    border-radius: 5px;
+    border: 1px rgb(255, 255, 255) solid;
+    padding: 2px;
+    color: rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
+    margin-left: 40%;
+ }
+
+ tbody {
+  background: black;
+  color: white;
+ }
